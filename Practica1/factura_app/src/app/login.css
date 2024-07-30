@@ -1,0 +1,49 @@
+
+body {
+  display: flex; 
+  justify-content: center; /* Centra verticalmente */
+  align-items: center; /* Centra horizontalmente */
+  min-height: 100vh; 
+  background-color: #caecb6 !important; 
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 500px;
+  padding: 15px;
+  margin: 50px;
+  background-color: white !important; 
+  border-radius: 5px; 
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+}
+  
+  .form-signin .checkbox {
+    font-weight: 400;
+  }
+  
+  .form-signin .form-floating:focus-within {
+    z-index: 2;
+  }
+  
+  .form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  .btn-primary {
+  background-color: white; /* Fondo blanco para el botón */
+  color: black; /* Letras negras */
+  border: 1px solid black; /* Borde negro para el botón */
+  }
+
+  .btn-primary:hover {
+  background-color: #f8f9fa !important; /* Un gris claro al pasar el mouse */
+  }
+  
